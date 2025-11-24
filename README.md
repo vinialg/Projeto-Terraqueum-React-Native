@@ -410,7 +410,8 @@ Suporta:
 * Código
 * Linha horizontal
 
-<RichEditor ref={editorRef} onChange={onChange} />
+**
+<RichEditor ref={editorRef} onChange={onChange} />**
 
 ---
 
