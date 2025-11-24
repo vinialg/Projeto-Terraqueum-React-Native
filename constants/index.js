@@ -1,0 +1,2 @@
+export const supabaseUrl = 'https://dysqutaxnbalbzmhpfwl.supabase.co';
+export const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR5c3F1dGF4bmJhbGJ6bWhwZndsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM0OTg4OTksImV4cCI6MjA3OTA3NDg5OX0._aNJBI9rgw2RoopEvfcr0ebay5MCjzxaAeuNvJ6spxs';
