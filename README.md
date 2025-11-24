@@ -361,9 +361,16 @@ Campo de texto com:
 * Estilo padronizado
 * Suporte a *multiline* e `secureTextEntry`
 
-<View style={styles.container}>
-  {icon}
-  <TextInput {...props} />
+<View style={[styles.container, props.containerStyle && props.containerStyle]}>
+      {
+        props.icon && props.icon
+      }
+      <TextInput
+        style={{flex: 1}}
+        placeholderTextColor={theme.colors.textLight}
+        ref={props.inputRef && props.inputRef}
+        {...props}
+      />
 </View>
 
 ---
